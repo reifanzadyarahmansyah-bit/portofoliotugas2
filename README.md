@@ -14,3 +14,6 @@ Website portofolio pribadi ini dibuat untuk memenuhi Tugas Mandiri Pertemuan 3 M
 3. Bootstrap Icons
 4. Git & GitHub untuk Version Control
 5. Deployment via Vercel"# portofoliotugas2" 
+
+MERAPIHKAN FOOTER
+
