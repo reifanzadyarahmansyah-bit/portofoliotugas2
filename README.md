@@ -13,4 +13,4 @@ Website portofolio pribadi ini dibuat untuk memenuhi Tugas Mandiri Pertemuan 3 M
 2. CSS Framework: Bootstrap 5.3.3 (via CDN)
 3. Bootstrap Icons
 4. Git & GitHub untuk Version Control
-5. Deployment via Vercel
+5. Deployment via Vercel"# portofoliotugas2" 
