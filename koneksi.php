@@ -1,14 +1,14 @@
 <?php
-$host     = "localhost";
-$user     = "root";     // User bawaan Laragon
-$password = "";         // Password bawaan Laragon kosong
-$database = "db_portofolio";
+$host = "localhost";
+$user = "root";
+$pass = ""; // Password default Laragon kosong
+$db = "db_portofolio";
 
-// Menghubungkan PHP ke database
-$koneksi = mysqli_connect($host, $user, $password, $database);
+$koneksi = mysqli_connect($host, $user, $pass, $db);
 
-// Cek apakah koneksi berhasil
 if (!$koneksi) {
-    die("Koneksi ke database gagal: " . mysqli_connect_error());
+    die("Koneksi gagal: " . mysqli_connect_error());
 }
-?>
+
+// Menjaga agar karakter dan simbol tampil dengan benar
+mysqli_set_charset($koneksi, "utf8mb4");
